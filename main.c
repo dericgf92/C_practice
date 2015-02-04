@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include <helloworld.c>
 
-void main()
+int main()
 {
-
+	
+    print_hello_world();
+    return(0);
 
 }

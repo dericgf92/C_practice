@@ -1,3 +1,3 @@
-#include <helloworld.c>
 
-void print_hello_world(void);
+
+int rint_hello_world();
