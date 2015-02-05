@@ -1,3 +1,1 @@
-
-
-int rint_hello_world();
+int print_hello_world();

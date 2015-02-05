@@ -1,5 +1,5 @@
 CC = gcc
 CFLAGS = -I.
 
-main: main.o helloworld.o
-	$(CC) -o main main.o helloworld.o -I.
+main: main.c helloworld.c
+	$(CC) -o main main.c helloworld.c -I.
