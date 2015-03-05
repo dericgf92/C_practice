@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -I.
+CFLAGS = -I. -std=c99
 
 main: main.c helloworld.c
-	$(CC) -o main main.c helloworld.c -I.
+	$(CC) $(CFLAGS) -o main main.c helloworld.c -I.
